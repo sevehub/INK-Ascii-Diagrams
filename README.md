@@ -1,6 +1,6 @@
 # INK-Ascii-Diagrams
 
-Community repository for sharing ASCII diagrams. Edit and view them as vector graphics with the INK notebook tool: https://a.co/d/0dEQ2VVP
+Community repository for sharing ASCII diagrams. Edit and view them as vector graphics with the INK notebook tool (#09) : https://a.co/d/0dEQ2VVP
 
 ## About
 
@@ -8,7 +8,7 @@ Each diagram in this repository is a plain-text `.txt` file. Paste it into the I
 
 The tool is **fully client-side. There is no server.** 
 
-**Pull requests are very welcome.** If you can draw it in ASCII, please add it: physics, math, electronics, chemistry, flowcharts, anything that reads well as text.
+**Pull requests are very welcome.** If you can draw it in ASCII, please add it: physics, math, electronics, chemistry, flowcharts,project management anything that reads well as text.
 
 ## How to use a diagram
 
@@ -49,20 +49,15 @@ A diagram is just text:
    cd INK-Ascii-Diagrams
    ```
 
-3. **Create a branch** for your change:
 
-   ```bash
-   git checkout -b add-my-diagram
-   ```
-
-4. **Add your diagram** as a `.txt` file inside a topic folder, using a short lowercase name with hyphens, for example `physics/simple-pendulum.txt`. Create a new folder if the topic does not exist yet (`math/`, `electronics/`, ...).
-5. **Check what you are about to commit**, so that only your diagram is included:
+3. **Add your diagram** as a `.txt` file inside a topic folder, using a short lowercase name with hyphens, for example `physics/simple-pendulum.txt`. Create a new folder if the topic does not exist yet (`math/`, `electronics/`, ...).
+4. **Check what you are about to commit**, so that only your diagram is included:
 
    ```bash
    git status
    ```
 
-6. **Commit and push:**
+5. **Commit and push:**
 
    ```bash
    git add physics/simple-pendulum.txt
@@ -70,7 +65,7 @@ A diagram is just text:
    git push origin add-my-diagram
    ```
 
-7. **Open the pull request.** On your fork's GitHub page, click *Compare & pull request*, write a one-line description of the diagram, and submit it.
+6. **Open the pull request.** On your fork's GitHub page, click *Compare & pull request*, write a one-line description of the diagram, and submit it.
 
 Small fixes are welcome too: better alignment, clearer labels, or corrected physics.
 

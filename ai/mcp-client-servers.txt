@@ -1,0 +1,13 @@
+                           +-----------------+
+                     +---->| files server    |
+                     |     +-----------------+
+                     |
+ +-------------+     |     +-----------------+
+ |  Claude app +-----+---->| calendar server |
+ | MCP client  |     |     +-----------------+
+ +-------------+     |
+                     |     +-----------------+
+                     +---->| search server   |
+                           +-----------------+
+
+ MCP is an open protocol that connects AI apps to tools and data
